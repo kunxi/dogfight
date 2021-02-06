@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FlightFight</title>
+  <style>
+    body {
+    font-family: sans-serif;
+    overflow: hidden;
+    }
+
+  .left, .right {
+    position: absolute;
+    padding: 0.7em 1em;
+    background: rgba(240, 240, 240, 0.7);
+  }
+
+  .right {
+    right: 0.5em;
+    bottom: 0.5em;
+  }
+
+  .left {
+    left: 0.5em;
+    bottom: 0.5em;
+  }
+  </style>
+  <script src="assets/stage.web.min.js"></script>
+  <script src="assets/app.js" type="module"></script>
+</head>
+<body>
+  <div class="left">Control: W/A/S/D fire: Space</div>
+  <div class="right">Control: ↑/←/↓/→ fire: Enter</div>
+</body>
+</html>
